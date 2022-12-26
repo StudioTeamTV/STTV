@@ -13,7 +13,7 @@ rem Jak Odstranit Opravneni TrustedInstalleru
 if "%guide%"=="jooti" set guide=Jak Odstranit Opravneni TrustedInstalleru
 if "%guide%"=="JOOTI" set guide=Jak Odstranit Opravneni TrustedInstalleru
 if "%guide%"=="Jooti" set guide=Jak Odstranit Opravneni TrustedInstalleru
-if "%guide%"=="Jak Odstranit Opravneni TrustedInstalleru" call :Open "G:\Batch\vbs\JOOTI.vbs" "1"
+if "%guide%"=="Jak Odstranit Opravneni TrustedInstalleru" call :Open "C:\users\%username%\desktop\Vbs\JOOTI.vbs" "1"
 
 echo Zadana napoveda neni na seznamu, budete ji muset zobrazit rucne
 pause > nul
@@ -33,5 +33,5 @@ cls
 
 :exit
 timeout /t 1
-start G:\Batch\vbs\MSGN.vbs
+start C:\users\%username%\desktop\Vbs\DZPS.vbs
 exit
