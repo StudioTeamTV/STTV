@@ -1,0 +1,1 @@
+X=msgboxX=msgbox("Jak Odstranit Opravneni TrustedInstalleru? Opravneni TrustedInstalleru jde odstranit tak ze...", 0+32, "JOOTI")
