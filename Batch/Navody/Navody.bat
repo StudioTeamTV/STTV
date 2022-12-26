@@ -33,5 +33,5 @@ cls
 
 :exit
 timeout /t 1
-start C:\users\%username%\desktop\Vbs\DZPS.vbs
+start C:\users\%username%\desktop\Vbs\MSGN.vbs
 exit
