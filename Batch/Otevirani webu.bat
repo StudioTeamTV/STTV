@@ -43,5 +43,4 @@ cls
 
 :exit
 timeout /t 1
-start G:\Batch\vbs\MSGOW.vbs
 exit
