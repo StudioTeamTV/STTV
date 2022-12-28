@@ -16,6 +16,13 @@ if "%iso%"=="Win98" set iso=Win98
 if "%iso%"=="win98" set iso=Win98
 if "%iso%"=="Win98" call :Instalace "https://winworldpc.com/download/417712c3-a418-c39a-11c3-a4e284a2c3a5/from/c39ac2af-c381-c2bf-1b25-11c3a4e284a2" "1"
 
+rem WinNT
+if "%iso%"=="windows nt" set iso=WinNT
+if "%iso%"=="Windows NT" set iso=WinNT
+if "%iso%"=="Winnt" set iso=WinNT
+if "%iso%"=="winNT" set iso=WinNT
+if "%iso%"=="WinNT" call :Instalace "https://winworldpc.com/download/15c87d03-f4bb-11ec-8dc3-0200008a0da4/from/c3ae6ee2-8099-713d-3411-c3a6e280947e" "1"
+
 echo Zadany soubor .iso neni na seznamu, budete ho muset nainstalovat rucne
 pause > nul
 cls
