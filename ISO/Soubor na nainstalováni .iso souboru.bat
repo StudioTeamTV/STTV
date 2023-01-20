@@ -23,6 +23,14 @@ if "%iso%"=="Winnt" set iso=WinNT
 if "%iso%"=="winNT" set iso=WinNT
 if "%iso%"=="WinNT" call :Instalace "https://winworldpc.com/download/15c87d03-f4bb-11ec-8dc3-0200008a0da4/from/c3ae6ee2-8099-713d-3411-c3a6e280947e" "1"
 
+rem Win1
+if "%iso%"=="windows1.0.4" set iso=Win1
+if "%iso%"=="win11.0.4" set iso=Win1
+if "%iso%"=="Windows1" set iso=Win1
+if "%iso%"=="Win1" set iso=Win1
+if "%iso%"=="win1.0.4" set iso=Win1
+if "%iso%"=="Win1" call :Instalace "https://winworldpc.com/download/4e7b2e4c-cb86-c2bd-11c3-a4c2ac5a5404" "1"
+
 echo Zadany soubor .iso neni na seznamu, budete ho muset nainstalovat rucne
 pause > nul
 cls
