@@ -31,6 +31,14 @@ if "%iso%"=="Win1" set iso=Win1
 if "%iso%"=="win1.0.4" set iso=Win1
 if "%iso%"=="Win1" call :Instalace "https://winworldpc.com/download/4e7b2e4c-cb86-c2bd-11c3-a4c2ac5a5404" "1"
 
+rem MS-DOS
+if "%iso%"=="msdos" set iso=MS-DOS
+if "%iso%"=="ms-dos" set iso=MS-DOS
+if "%iso%"=="MSDOS" set iso=MS-DOS
+if "%iso%"=="MS-DOS" set iso=MS-DOS
+if "%iso%"=="Ms-Dos" set iso=MS-DOS
+if "%iso%"=="MS-DOS" call :Instalace "https://winworldpc.com/download/4e7b2e4c-cb86-c2bd-11c3-a4c2ac5a5404" "1"
+
 echo Zadany soubor .iso neni na seznamu, budete ho muset nainstalovat rucne
 pause > nul
 cls
