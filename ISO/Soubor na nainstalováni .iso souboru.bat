@@ -39,6 +39,20 @@ if "%iso%"=="MS-DOS" set iso=MS-DOS
 if "%iso%"=="Ms-Dos" set iso=MS-DOS
 if "%iso%"=="MS-DOS" call :Instalace "https://winworldpc.com/download/4e7b2e4c-cb86-c2bd-11c3-a4c2ac5a5404" "1"
 
+rem Win10
+if "%iso%"=="windows 10" set iso=Win10
+if "%iso%"=="Windows 10" set iso=Win10
+if "%iso%"=="Win10" set iso=Win10
+if "%iso%"=="win10" set iso=Win10
+if "%iso%"=="Win10" call :Instalace "https://archive.org/download/windows-10-1507-home-and-pro/Win10_Czech_x64.iso" "1"
+
+rem Win11
+if "%iso%"=="windows 11" set iso=Win11
+if "%iso%"=="Windows 11" set iso=Win11
+if "%iso%"=="Win11" set iso=Win11
+if "%iso%"=="win11" set iso=Win11
+if "%iso%"=="Win11" call :Instalace "https://archive.org/details/21996.1.210529-1541.co-release-client-consumer-x-64-fre-en-us_20210619_0140" "1"
+
 echo Zadany soubor .iso neni na seznamu, budete ho muset nainstalovat rucne
 pause > nul
 cls
