@@ -9,6 +9,37 @@ cd "C:\Users\%username%\downloads"
 set /p iso=Zadejte nazev .iso, ktery chcete nainstalovat: 
 :start
 
+rem MS-DOS
+if "%iso%"=="MS-DOS" set iso=MS-DOS
+if "%iso%"=="ms-dos" set iso=MS-DOS
+if "%iso%"=="microsoft dos" set iso=MS-DOS
+if "%iso%"=="msdos" set iso=MS-DOS
+if "%iso%"=="MS-DOS" call :Instalace "https://archive.org/download/msdos6_22/msdos6_22disk1.img" & "https://archive.org/download/msdos6_22/msdos6_22disk2.img" & https://archive.org/download/msdos6_22/msdos6_22disk3.img "1"
+
+rem Win1
+if "%iso%"=="win1" set iso=Win1
+if "%iso%"=="WIN1" set iso=Win1
+if "%iso%"=="Windows 1" set iso=Win1
+if "%iso%"=="windows 1" set iso=Win1
+if "%iso%"=="WINDOWS 1" set iso=Win1
+if "%iso%"=="Win1" call :Instalace "https://winworldpc.com/download/83cc2aec-a591-11e9-b7f9-fa163e9022f0/from/c3ae6ee2-8099-713d-3411-c3a6e280947e" "1"
+
+rem Win2
+if "%iso%"=="win2" set iso=Win2
+if "%iso%"=="WIN2" set iso=Win2
+if "%iso%"=="Windows 2" set iso=Win2
+if "%iso%"=="windows 2" set iso=Win2
+if "%iso%"=="WINDOWS 2" set iso=Win2
+if "%iso%"=="Win2" call :Instalace "https://winworldpc.com/download/0474c84d-d5c4-11eb-9de1-0200008a0da4/from/c3ae6ee2-8099-713d-3411-c3a6e280947e" "1"
+
+rem Win3.1
+if "%iso%"=="win3.1" set iso=Win3.1
+if "%iso%"=="WIN3.1" set iso=Win3.1
+if "%iso%"=="Windows 3.1" set iso=Win3.1
+if "%iso%"=="windows 3.1" set iso=Win3.1
+if "%iso%"=="WINDOWS 3.1" set iso=Win3.1
+if "%iso%"=="Win3.1" call :Instalace "https://archive.org/download/windows-3.1_202011/WINDOWS_3.1.ISO" "1"
+
 rem Win98
 if "%iso%"=="windows 98" set iso=Win98
 if "%iso%"=="Windows 98" set iso=Win98
@@ -30,14 +61,6 @@ if "%iso%"=="Windows1" set iso=Win1
 if "%iso%"=="Win1" set iso=Win1
 if "%iso%"=="win1.0.4" set iso=Win1
 if "%iso%"=="Win1" call :Instalace "https://winworldpc.com/download/4e7b2e4c-cb86-c2bd-11c3-a4c2ac5a5404" "1"
-
-rem MS-DOS
-if "%iso%"=="msdos" set iso=MS-DOS
-if "%iso%"=="ms-dos" set iso=MS-DOS
-if "%iso%"=="MSDOS" set iso=MS-DOS
-if "%iso%"=="MS-DOS" set iso=MS-DOS
-if "%iso%"=="Ms-Dos" set iso=MS-DOS
-if "%iso%"=="MS-DOS" call :Instalace "https://winworldpc.com/download/4e7b2e4c-cb86-c2bd-11c3-a4c2ac5a5404" "1"
 
 rem Win10
 if "%iso%"=="windows 10" set iso=Win10
