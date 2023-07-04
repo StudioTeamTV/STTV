@@ -74,7 +74,7 @@ if "%iso%"=="windows 11" set iso=Win11
 if "%iso%"=="Windows 11" set iso=Win11
 if "%iso%"=="Win11" set iso=Win11
 if "%iso%"=="win11" set iso=Win11
-if "%iso%"=="Win11" call :Instalace "https://archive.org/details/21996.1.210529-1541.co-release-client-consumer-x-64-fre-en-us_20210619_0140" "1"
+if "%iso%"=="Win11" call :Instalace "https://archive.org/details/windows-11_202108" "1"
 
 echo Zadany soubor .iso neni na seznamu, budete ho muset nainstalovat rucne
 pause > nul
