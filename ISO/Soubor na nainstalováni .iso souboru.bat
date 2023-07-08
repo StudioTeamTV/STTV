@@ -40,6 +40,15 @@ if "%iso%"=="windows 3.1" set iso=Win3.1
 if "%iso%"=="WINDOWS 3.1" set iso=Win3.1
 if "%iso%"=="Win3.1" call :Instalace "https://archive.org/download/windows-3.1_202011/WINDOWS_3.1.ISO" "1"
 
+rem Win95
+if "%iso%"=="windows 95" set iso=Win95
+if "%iso%"=="Windows 95" set iso=Win95
+if "%iso%"=="Win95" set iso=Win95
+if "%iso%"=="win 95" set iso=Win95
+if "%iso%"=="Win 95" set iso=Win95
+if "%iso%"=="win95" set iso=Win95
+if "%iso%"=="Win98" call :Instalace "https://winworldpc.com/download/c2d275fa-4e61-11ec-b881-0200008a0da4/from/c3ae6ee2-8099-713d-3411-c3a6e280947e" "1"
+
 rem Win98
 if "%iso%"=="windows 98" set iso=Win98
 if "%iso%"=="Windows 98" set iso=Win98
