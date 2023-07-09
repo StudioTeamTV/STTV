@@ -38,7 +38,7 @@ if "%iso%"=="WIN3.1" set iso=Win3.1
 if "%iso%"=="Windows 3.1" set iso=Win3.1
 if "%iso%"=="windows 3.1" set iso=Win3.1
 if "%iso%"=="WINDOWS 3.1" set iso=Win3.1
-if "%iso%"=="Win3.1" call :Instalace "https://archive.org/download/windows-3.1_202011/WINDOWS_3.1.ISO" "1"
+if "%iso%"=="Win3.1" call :Instalace "https://winworldpc.com/download/3f56c38f-6118-c39a-11c3-a4e284a2c3a5/from/c3ae6ee2-8099-713d-3411-c3a6e280947e" "1"
 
 rem Win95
 if "%iso%"=="windows 95" set iso=Win95
